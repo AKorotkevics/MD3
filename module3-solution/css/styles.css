@@ -1,0 +1,119 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #A9A9A9;
+  border-radius: 0;
+  border: 0;
+
+}
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+    font-family: 'Lora', serif;
+    color: #000000;
+    font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 5px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+  #main-content {
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px;
+  line-height: .75;
+}
+
+ #container {
+   background-color: #A9A9A9;
+   font-family: 'Lora', serif;
+   font-weight: bold;
+   color: black;
+   font-size: 1.2em;
+   margin: 40px;
+   padding: 30px;
+
+  }
+   #container-text{
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 15px;
+   }
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #nav-list{
+    text-align: right;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
